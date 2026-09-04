@@ -1,45 +1,61 @@
 # Codex Skills
 
-个人维护的 Codex Skill 集合，按目录独立组织，便于复用、审查和安装。
+Codex Skill 集合，按来源和维护关系独立组织，便于复用、审查和安装。
 
-## Skills
+## 目录
+
+### 个人维护
 
 | Skill | 用途 |
 |---|---|
 | `ai-slop-cleaner` | 识别和清理 AI 生成内容中的冗余表达 |
-| `ask-matt` | 按阶段推进复杂开发任务 |
 | `atlas` | 控制 ChatGPT Atlas 浏览器 |
+| `okr-review-manager` | 汇总 OKR 进度并生成月度复盘草稿 |
+| `onboard-new-user` | 设计新用户引导流程 |
+| `review-software-design` | 评审软件设计和架构方案 |
+| `teach` | 解释技术概念和代码实现 |
+| `wechat-article-layout` | 优化微信公众号文章排版 |
+| `weekly-report-generator` | 从工时和 Issue 数据生成技术支持周报 |
+
+### Matt 工作流相关
+
+以下 Skill 与 Matt 工作流相关，或依赖同一套工作流约定；不默认视为本仓库原创：
+
+| Skill | 用途 |
+|---|---|
+| `ask-matt` | 按阶段推进复杂开发任务 |
 | `grill-me` | 对方案进行追问和压力测试 |
 | `grill-with-docs` | 结合文档进行方案校准 |
 | `handoff` | 在任务或环境之间交接工作 |
 | `implement` | 按已确认方案执行实现 |
 | `improve-codebase-architecture` | 改进代码库架构和模块设计 |
-| `okr-review-manager` | 汇总 OKR 进度并生成月度复盘草稿 |
-| `onboard-new-user` | 设计新用户引导流程 |
-| `review-software-design` | 评审软件设计和架构方案 |
-| `superpower-dev-flow` | 推进结构化开发流程 |
-| `teach` | 解释技术概念和代码实现 |
 | `to-questionnaire` | 将需求转化为澄清问题 |
 | `to-spec` | 将需求整理为技术规格 |
 | `to-tickets` | 将规格拆分为可执行任务 |
 | `triage` | 分析问题并确定处理路径 |
 | `wait-what` | 识别需求、代码或文档中的歧义 |
 | `wayfinder` | 组织复杂任务的探索和推进路径 |
-| `wechat-article-layout` | 优化微信公众号文章排版 |
-| `weekly-report-generator` | 从工时和 Issue 数据生成技术支持周报 |
+
+### 其他来源或改编
+
+| Skill | 说明 |
+|---|---|
+| `superpower-dev-flow` | Superpowers 风格的开发流程 Skill，来源和许可以原仓库说明为准 |
+
+Skill 的来源分类是维护信息，不代表对原作者、许可证或版权归属的法律判断。
 
 ## 安装
 
 将需要的 Skill 目录复制到本地 Codex Skill 目录：
 
 ```bash
-cp -R skills/<skill-name> ~/.codex/skills/
+cp -R skills/<category>/<skill-name> ~/.codex/skills/
 ```
 
 例如：
 
 ```bash
-cp -R skills/okr-review-manager ~/.codex/skills/
+cp -R skills/personal/okr-review-manager ~/.codex/skills/
 ```
 
 ## 目录结构
@@ -48,11 +64,9 @@ cp -R skills/okr-review-manager ~/.codex/skills/
 .
 ├── README.md
 └── skills/
-    └── <skill-name>/
-        ├── SKILL.md
-        ├── agents/openai.yaml
-        ├── references/      # 可选
-        └── scripts/         # 可选
+    ├── personal/<skill-name>/
+    ├── matt-derived/<skill-name>/
+    └── other/<skill-name>/
 ```
 
 每个 Skill 保持独立，包含自己的触发条件、执行规则和必要资源。Skill 名称使用小写字母、数字和连字符。
