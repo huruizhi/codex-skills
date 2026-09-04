@@ -1,0 +1,522 @@
+README.md
+  s_78051662d2f803::t_2717d17a783bfb 1-71
+skills/wechat-article-layout/references/themes.md
+  s_78051662d2f803::t_c0cabd27327f5c 1-26
+skills/okr-review-manager/SKILL.md
+  s_78051662d2f803::t_9fffc453279f73 1-107
+.gitignore
+  s_78051662d2f803::t_7451bbaaf57557 1-3
+---
+{
+  "schema_version": "authorship/3.1.0",
+  "tlab_version": "0.10.2",
+  "base_commit_sha": "110ae14643c8559ccdce4dd01d5ee26f59a70683",
+  "prompts": {},
+  "sessions": {
+    "s_78051662d2f803": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e11e0-3df9-71f2-8f31-263bbf06f0fd",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "rzhu <huruizhi@gmail.com>",
+      "custom_attributes": {
+        "tlab.token_usage.cache_creation_tokens": "0",
+        "tlab.token_usage.input_tokens": "25902076",
+        "tlab.session_started_at": "2026-09-04T08:32:21Z",
+        "tlab.token_usage.cache_read_tokens": "221167744",
+        "tlab.token_usage.output_tokens": "964677"
+      }
+    }
+  },
+  "changes": [
+    {
+      "new_path": ".gitignore",
+      "additions": {
+        "ai": [
+          {
+            "session_id": "s_78051662d2f803",
+            "lines": 3
+          }
+        ]
+      }
+    },
+    {
+      "new_path": "README.md",
+      "additions": {
+        "ai": [
+          {
+            "session_id": "s_78051662d2f803",
+            "lines": 71
+          }
+        ]
+      }
+    },
+    {
+      "new_path": "skills/ai-slop-cleaner/SKILL.md",
+      "additions": {
+        "human": 114
+      }
+    },
+    {
+      "new_path": "skills/ask-matt/PHASE-BOUNDARIES.md",
+      "additions": {
+        "human": 55
+      }
+    },
+    {
+      "new_path": "skills/ask-matt/SKILL.md",
+      "additions": {
+        "human": 90
+      }
+    },
+    {
+      "new_path": "skills/ask-matt/agents/openai.yaml",
+      "additions": {
+        "human": 5
+      }
+    },
+    {
+      "new_path": "skills/atlas/LICENSE.txt",
+      "additions": {
+        "human": 201
+      }
+    },
+    {
+      "new_path": "skills/atlas/SKILL.md",
+      "additions": {
+        "human": 99
+      }
+    },
+    {
+      "new_path": "skills/atlas/agents/openai.yaml",
+      "additions": {
+        "human": 6
+      }
+    },
+    {
+      "new_path": "skills/atlas/assets/atlas-small.svg",
+      "additions": {
+        "human": 4
+      }
+    },
+    {
+      "new_path": "skills/atlas/references/atlas-data.md",
+      "additions": {
+        "human": 26
+      }
+    },
+    {
+      "new_path": "skills/atlas/scripts/atlas_cli.py",
+      "additions": {
+        "human": 473
+      }
+    },
+    {
+      "new_path": "skills/atlas/scripts/atlas_common.py",
+      "additions": {
+        "human": 168
+      }
+    },
+    {
+      "new_path": "skills/grill-me/SKILL.md",
+      "additions": {
+        "human": 7
+      }
+    },
+    {
+      "new_path": "skills/grill-me/agents/openai.yaml",
+      "additions": {
+        "human": 5
+      }
+    },
+    {
+      "new_path": "skills/grill-with-docs/SKILL.md",
+      "additions": {
+        "human": 7
+      }
+    },
+    {
+      "new_path": "skills/grill-with-docs/agents/openai.yaml",
+      "additions": {
+        "human": 5
+      }
+    },
+    {
+      "new_path": "skills/handoff/SKILL.md",
+      "additions": {
+        "human": 16
+      }
+    },
+    {
+      "new_path": "skills/handoff/agents/openai.yaml",
+      "additions": {
+        "human": 5
+      }
+    },
+    {
+      "new_path": "skills/implement/SKILL.md",
+      "additions": {
+        "human": 15
+      }
+    },
+    {
+      "new_path": "skills/implement/agents/openai.yaml",
+      "additions": {
+        "human": 5
+      }
+    },
+    {
+      "new_path": "skills/improve-codebase-architecture/HTML-REPORT.md",
+      "additions": {
+        "human": 123
+      }
+    },
+    {
+      "new_path": "skills/improve-codebase-architecture/SKILL.md",
+      "additions": {
+        "human": 71
+      }
+    },
+    {
+      "new_path": "skills/improve-codebase-architecture/agents/openai.yaml",
+      "additions": {
+        "human": 5
+      }
+    },
+    {
+      "new_path": "skills/okr-review-manager/SKILL.md",
+      "additions": {
+        "ai": [
+          {
+            "session_id": "s_78051662d2f803",
+            "lines": 107
+          }
+        ]
+      }
+    },
+    {
+      "new_path": "skills/okr-review-manager/agents/openai.yaml",
+      "additions": {
+        "human": 7
+      }
+    },
+    {
+      "new_path": "skills/onboard-new-user/SKILL.md",
+      "additions": {
+        "human": 238
+      }
+    },
+    {
+      "new_path": "skills/review-software-design/SKILL.md",
+      "additions": {
+        "human": 54
+      }
+    },
+    {
+      "new_path": "skills/review-software-design/agents/openai.yaml",
+      "additions": {
+        "human": 4
+      }
+    },
+    {
+      "new_path": "skills/superpower-dev-flow/SKILL.md",
+      "additions": {
+        "human": 69
+      }
+    },
+    {
+      "new_path": "skills/superpower-dev-flow/references/superpower-checklist.md",
+      "additions": {
+        "human": 37
+      }
+    },
+    {
+      "new_path": "skills/teach/GLOSSARY-FORMAT.md",
+      "additions": {
+        "human": 35
+      }
+    },
+    {
+      "new_path": "skills/teach/LEARNING-RECORD-FORMAT.md",
+      "additions": {
+        "human": 46
+      }
+    },
+    {
+      "new_path": "skills/teach/MISSION-FORMAT.md",
+      "additions": {
+        "human": 31
+      }
+    },
+    {
+      "new_path": "skills/teach/RESOURCES-FORMAT.md",
+      "additions": {
+        "human": 32
+      }
+    },
+    {
+      "new_path": "skills/teach/SKILL.md",
+      "additions": {
+        "human": 140
+      }
+    },
+    {
+      "new_path": "skills/teach/agents/openai.yaml",
+      "additions": {
+        "human": 5
+      }
+    },
+    {
+      "new_path": "skills/to-questionnaire/SKILL.md",
+      "additions": {
+        "human": 54
+      }
+    },
+    {
+      "new_path": "skills/to-questionnaire/agents/openai.yaml",
+      "additions": {
+        "human": 5
+      }
+    },
+    {
+      "new_path": "skills/to-spec/SKILL.md",
+      "additions": {
+        "human": 75
+      }
+    },
+    {
+      "new_path": "skills/to-spec/agents/openai.yaml",
+      "additions": {
+        "human": 5
+      }
+    },
+    {
+      "new_path": "skills/to-tickets/SKILL.md",
+      "additions": {
+        "human": 105
+      }
+    },
+    {
+      "new_path": "skills/to-tickets/agents/openai.yaml",
+      "additions": {
+        "human": 5
+      }
+    },
+    {
+      "new_path": "skills/triage/AGENT-BRIEF.md",
+      "additions": {
+        "human": 207
+      }
+    },
+    {
+      "new_path": "skills/triage/OUT-OF-SCOPE.md",
+      "additions": {
+        "human": 105
+      }
+    },
+    {
+      "new_path": "skills/triage/SKILL.md",
+      "additions": {
+        "human": 112
+      }
+    },
+    {
+      "new_path": "skills/triage/agents/openai.yaml",
+      "additions": {
+        "human": 5
+      }
+    },
+    {
+      "new_path": "skills/wait-what/SKILL.md",
+      "additions": {
+        "human": 7
+      }
+    },
+    {
+      "new_path": "skills/wait-what/agents/openai.yaml",
+      "additions": {
+        "human": 5
+      }
+    },
+    {
+      "new_path": "skills/wayfinder/SKILL.md",
+      "additions": {
+        "human": 128
+      }
+    },
+    {
+      "new_path": "skills/wayfinder/agents/openai.yaml",
+      "additions": {
+        "human": 5
+      }
+    },
+    {
+      "new_path": "skills/wechat-article-layout/SKILL.md",
+      "additions": {
+        "human": 94
+      }
+    },
+    {
+      "new_path": "skills/wechat-article-layout/agents/openai.yaml",
+      "additions": {
+        "human": 4
+      }
+    },
+    {
+      "new_path": "skills/wechat-article-layout/references/themes.md",
+      "additions": {
+        "ai": [
+          {
+            "session_id": "s_78051662d2f803",
+            "lines": 26
+          }
+        ]
+      }
+    },
+    {
+      "new_path": "skills/wechat-article-layout/references/usage.md",
+      "additions": {
+        "human": 78
+      }
+    },
+    {
+      "new_path": "skills/wechat-article-layout/scripts/layout_article.py",
+      "additions": {
+        "human": 667
+      }
+    },
+    {
+      "new_path": "skills/weekly-report-generator/.gitignore",
+      "additions": {
+        "human": 2
+      }
+    },
+    {
+      "new_path": "skills/weekly-report-generator/README.md",
+      "additions": {
+        "human": 29
+      }
+    },
+    {
+      "new_path": "skills/weekly-report-generator/SKILL.md",
+      "additions": {
+        "human": 65
+      }
+    },
+    {
+      "new_path": "skills/weekly-report-generator/fetch-gitlab-issue-details/SKILL.md",
+      "additions": {
+        "human": 18
+      }
+    },
+    {
+      "new_path": "skills/weekly-report-generator/fetch-gitlab-issue-details/implementation.py",
+      "additions": {
+        "human": 239
+      }
+    },
+    {
+      "new_path": "skills/weekly-report-generator/generate-issue-list.sh",
+      "additions": {
+        "human": 42
+      }
+    },
+    {
+      "new_path": "skills/weekly-report-generator/generate-tech-support-weekly-report/SKILL.md",
+      "additions": {
+        "human": 19
+      }
+    },
+    {
+      "new_path": "skills/weekly-report-generator/generate-tech-support-weekly-report/implementation.py",
+      "additions": {
+        "human": 312
+      }
+    },
+    {
+      "new_path": "skills/weekly-report-generator/generate-tech-support-weekly-report/run-full-pipeline.sh",
+      "additions": {
+        "human": 5
+      }
+    },
+    {
+      "new_path": "skills/weekly-report-generator/issue_list.py",
+      "additions": {
+        "human": 232
+      }
+    },
+    {
+      "new_path": "skills/weekly-report-generator/prepare-data.sh",
+      "additions": {
+        "human": 142
+      }
+    },
+    {
+      "new_path": "skills/weekly-report-generator/query-tech-support-issues/SKILL.md",
+      "additions": {
+        "human": 20
+      }
+    },
+    {
+      "new_path": "skills/weekly-report-generator/query-tech-support-issues/implementation.py",
+      "additions": {
+        "human": 166
+      }
+    },
+    {
+      "new_path": "skills/weekly-report-generator/render-weekly-issue-list/SKILL.md",
+      "additions": {
+        "human": 16
+      }
+    },
+    {
+      "new_path": "skills/weekly-report-generator/render-weekly-issue-list/implementation.py",
+      "additions": {
+        "human": 59
+      }
+    },
+    {
+      "new_path": "skills/weekly-report-generator/run-full-pipeline.sh",
+      "additions": {
+        "human": 164
+      }
+    },
+    {
+      "new_path": "skills/weekly-report-generator/run-workspace-weekly-report.sh",
+      "additions": {
+        "human": 27
+      }
+    },
+    {
+      "new_path": "skills/weekly-report-generator/split-issue-notes-by-time/SKILL.md",
+      "additions": {
+        "human": 17
+      }
+    },
+    {
+      "new_path": "skills/weekly-report-generator/split-issue-notes-by-time/implementation.py",
+      "additions": {
+        "human": 191
+      }
+    },
+    {
+      "new_path": "skills/weekly-report-generator/tests/fixtures/sample-issues.json",
+      "additions": {
+        "human": 39
+      }
+    },
+    {
+      "new_path": "skills/weekly-report-generator/tests/test_gitlab_url_parsing.py",
+      "additions": {
+        "human": 26
+      }
+    },
+    {
+      "new_path": "skills/weekly-report-generator/tests/test_issue_list.py",
+      "additions": {
+        "human": 146
+      }
+    }
+  ]
+}
