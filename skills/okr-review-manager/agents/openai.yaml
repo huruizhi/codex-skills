@@ -1,0 +1,7 @@
+interface:
+  display_name: "OKR复盘管理"
+  short_description: "汇总个人与部门 OKR 进度并生成月度复盘草稿"
+  default_prompt: "使用 $okr-review-manager 汇总 OKR 进度，生成月度复盘草稿并先进行校准。"
+
+policy:
+  allow_implicit_invocation: true

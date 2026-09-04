@@ -1,0 +1,4 @@
+interface:
+  display_name: "软件设计评审"
+  short_description: "用深模块、复杂度与可验证性原则审查并改进软件设计方案"
+  default_prompt: "使用 $review-software-design 评审这个模块或设计方案，给出简洁、可执行的改进建议。"

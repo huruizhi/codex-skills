@@ -1,0 +1,4 @@
+interface:
+  display_name: "WeChat Article Layout"
+  short_description: "Local WeChat HTML layout tool"
+  default_prompt: "Use this skill to locally typeset Markdown into WeChat-compatible HTML and optional draft JSON, without relying on remote layout APIs."

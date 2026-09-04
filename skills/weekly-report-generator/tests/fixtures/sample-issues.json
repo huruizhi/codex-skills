@@ -1,0 +1,39 @@
+{
+  "period": {
+    "start": "2026-07-13",
+    "end": "2026-07-20",
+    "end_exclusive": true,
+    "timezone": "Asia/Shanghai"
+  },
+  "engineers": [
+    "雷程",
+    "李发富",
+    "陶郭宇",
+    "韩飞",
+    "彭锐",
+    "王凯旋",
+    "张永宝",
+    "胡睿智"
+  ],
+  "ka_source_available": true,
+  "items": [
+    {
+      "issue_id": 101,
+      "title": "示例问题：升级排查",
+      "web_url": "https://jihulab.com/example/project/-/issues/101",
+      "customer": "示例 KA 客户",
+      "engineer": "韩飞",
+      "is_ka": "是",
+      "time_spent_seconds": 5400
+    },
+    {
+      "issue_id": 102,
+      "title": "示例问题：性能分析",
+      "web_url": "https://jihulab.com/example/project/-/issues/102",
+      "customer": "示例非 KA 客户",
+      "engineer": "雷程",
+      "is_ka": "否",
+      "time_spent_seconds": 3600
+    }
+  ]
+}
