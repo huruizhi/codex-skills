@@ -10,6 +10,7 @@ Codex Skill 集合，按来源和维护关系独立组织，便于复用、审�
 |---|---|
 | `ai-slop-cleaner` | 识别和清理 AI 生成内容中的冗余表达 |
 | `atlas` | 控制 ChatGPT Atlas 浏览器 |
+| `daily-worklog-recorder` | 把当天工作汇总成 GitLab issue 并用 /spend 记工时 |
 | `okr-review-manager` | 汇总 OKR 进度并生成月度复盘草稿 |
 | `onboard-new-user` | 设计新用户引导流程 |
 | `review-software-design` | 评审软件设计和架构方案 |
