@@ -1,5 +1,5 @@
 ---
-name: ticket-daily-summary
+name: daily-ticket-summary
 description: Use when 获取今日/昨日工单更新、工单日报、工单汇总、把工单摘要总结写入 issue — 拉取极狐支持门户生产库当日有人工回复的工单，汇总成表格给用户确认后写入各工单绑定的 customer-success-teamwork issue（只汇总不@人）。端到端：kubectl 进生产 pod 查库 → 按口径筛选 → 汇总表格确认 → glab 发评论 → 复核新回复。需要 kubectl 集群访问权限与已认证的 glab (jihulab.com)。
 ---
 

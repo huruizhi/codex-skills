@@ -15,7 +15,7 @@ Codex Skill 集合，按来源和维护关系独立组织，便于复用、审�
 | `onboard-new-user` | 设计新用户引导流程 |
 | `review-software-design` | 评审软件设计和架构方案 |
 | `teach` | 解释技术概念和代码实现 |
-| `ticket-daily-summary` | 汇总支持门户当日工单更新（有人工回复的），确认后写入各工单绑定的 GitLab issue |
+| `daily-ticket-summary` | 汇总支持门户当日工单更新（有人工回复的），确认后写入各工单绑定的 GitLab issue |
 | `wechat-article-layout` | 优化微信公众号文章排版 |
 | `weekly-report-generator` | 从工时和 Issue 数据生成技术支持周报 |
 
